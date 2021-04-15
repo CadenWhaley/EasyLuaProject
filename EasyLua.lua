@@ -51,3 +51,8 @@ local function DamageHumanoid(Player,Health,WaitTimer)
 	game.Players[Player].Chracter.Health = Health
 end
 
+local function CreatePairs(ChildrenOfObject)
+	 for _,v in pairs(ChildrenOfObject)do 
+		
+	end;
+end
